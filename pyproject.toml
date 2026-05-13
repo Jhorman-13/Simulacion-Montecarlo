@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simulacion_mc"
+version = "0.1.0"
+description = "Librería para simulación Montecarlo y muestreo avanzado"
+authors = [
+    {name = "Tu Jhorman", email = "jhormankad@gmail.com"}
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scipy",
+    "notebook"
+]
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["src"]
